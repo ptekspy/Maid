@@ -1,3 +1,5 @@
+export type Maid
+
 export type MaidToken = {
 	maid: Maid,
 	object: any,
