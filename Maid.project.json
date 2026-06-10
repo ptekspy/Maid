@@ -1,0 +1,9 @@
+{
+  "name": "Maid",
+  "tree": {
+    "$path": "src",
+    "DevPackages": {
+      "$path": "DevPackages"
+    }
+  }
+}
