@@ -1,5 +1,3 @@
-export type Maid
-
 export type MaidToken = {
 	maid: Maid,
 	object: any,
@@ -8,7 +6,7 @@ export type MaidToken = {
 }
 
 export type Maid = {
-	tokens: {[MaidToken]: boolean},
+	tokens: { [MaidToken]: boolean },
 	is_cleaned: boolean,
 	key: any,
 	IsActive: (self: Maid) -> boolean,
